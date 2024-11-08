@@ -23,6 +23,6 @@ class UserSeeder extends Seeder
                 'role'  => UserRole::ADMIN,
             ]);
 
-        User::factory()->count(15)->create();
+        // User::factory()->count(15)->create();s
     }
 }

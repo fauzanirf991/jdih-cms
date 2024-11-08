@@ -184,7 +184,7 @@ class BannerController extends LinkController
     {
         $this->removeMedia($link->image->path);
 
-        $link->images()->delete();
+        $link->image()->delete();
 
         $link->delete();
 

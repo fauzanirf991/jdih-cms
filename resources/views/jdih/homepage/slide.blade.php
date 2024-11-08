@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 text-center">
-                        <div class="row mt-5">
+                        {{-- <div class="row mt-5">
                             <div class="col">
                                 <img src="{{ $appLogoUrl }}" height="86">
                             </div>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <img src="{{ asset('assets/jdih/images/backgrounds/nangunsatkerthi2.png') }}" class="img-fluid my-4 px-5">
-                        <h3 class="fw-bold text-white"><?php echo $company;?></h3>
+                        <h3 class="fw-bold text-white"><?php echo $company;?></h3> --}}
                     </div>
                 </div>
             </div>

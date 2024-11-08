@@ -2,9 +2,9 @@
 <div class="page-header page-header-light">
     <div class="page-header-content container d-lg-flex">
         <div class="d-flex">
-            <a href="{{ $jdihnUrl }}" class="page-title me-3">
+            {{-- <a href="{{ $jdihnUrl }}" class="page-title me-3">
                 <img src="{{ $jdihnLogo }}" alt="{{ $jdihnTitle }}" width="64">
-            </a>
+            </a> --}}
 
             <a href="{{ $appUrl }}" class="page-title me-3">
                 <img src="{{ $appLogoUrl }}" alt="{{ $appName }}" width="64">
